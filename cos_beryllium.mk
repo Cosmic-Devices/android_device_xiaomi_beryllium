@@ -6,11 +6,11 @@
 
 $(call inherit-product, device/xiaomi/beryllium/device.mk)
 
-# Inherit some common Potato stuff.
-$(call inherit-product, vendor/potato/config/common_full_phone.mk)
+# Inherit some common Cosmic-OS stuff.
+$(call inherit-product, vendor/cos/config/common_full_phone.mk)
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := potato_beryllium
+PRODUCT_NAME := cos_beryllium
 PRODUCT_DEVICE := beryllium
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := POCO F1
@@ -24,3 +24,6 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     TARGET_DEVICE="beryllium"
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi-rev1
+
+# Cosmic-OS Specific Release tag
+COS_RELEASE := true

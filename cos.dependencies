@@ -1,0 +1,32 @@
+[
+  {
+    "remote"     : "devices",
+    "repository" : "android_device_xiaomi_sdm845-common",
+    "target_path": "device/xiaomi/sdm845-common",
+    "branch" : "corona-release"
+  },
+  {
+    "remote"     : "github",
+    "repository" : "AgentFabulous/beryllium",
+    "target_path": "kernel/xiaomi/beryllium",
+    "branch" : "master"
+  },
+  {
+    "remote"     : "github",
+    "repository" : "PotatoProject/prebuilts_gcc_linux-x86_aarch64_aarch64-linux-gnu-8.2.1",
+    "target_path": "prebuilts/gcc/linux-x86/aarch64/aarch64-linux-gnu-8.2.1",
+    "branch" : "baked-release"
+  },
+  {
+    "remote"     : "devices",
+    "repository" : "proprietary_vendor_xiaomi_beryllium",
+    "target_path": "vendor/xiaomi/beryllium",
+    "branch" : "corona-release"
+  },
+  {
+    "remote"     : "devices",
+    "repository" : "proprietary_vendor_xiaomi_sdm845-common",
+    "target_path": "vendor/xiaomi/sdm845-common",
+    "branch" : "corona-release"
+  }
+]
